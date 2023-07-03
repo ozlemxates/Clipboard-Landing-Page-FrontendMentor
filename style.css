@@ -29,22 +29,15 @@ header {
 header img {
     width: 75px;
     height: 75px;
-    margin: 40px;
 }
 
-.text-header {
+.header-text {
     display: flex;
     flex-direction: column;
-    gap: 35px;
-
+    margin: 30px auto;
 }
 
 .btn {
-    
-
-}
-
-button {
     width: 220px;
     height: 45px;
     border: 0;
