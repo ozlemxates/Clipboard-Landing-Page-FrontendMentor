@@ -41,8 +41,10 @@ header img {
     width: 220px;
     height: 45px;
     border: 0;
+    margin: 8px;
     border-radius: 24px;
     color:#ffff;
+    font-weight: 700;
 }
 
 .cyan {
@@ -55,6 +57,37 @@ header img {
 
 p {
     font-size: 18px;
+    color: var(--text-color);
+}
+
+.text {
+    width: 630px;
+    margin: auto;
+}
+
+.first-sec {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -32px;
+    gap: 80px;
+
+}
+
+.text-aside {
+    width: 300px;
+    text-align: left;
+    margin-top: 64px;
+    line-height: 30px;
+}
+
+.device-img {
+    width: 600px;
+}
+
+
+.links {
+
+    
 }
 
 .attribution { font-size: 11px; text-align: center; }
