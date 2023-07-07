@@ -62,14 +62,14 @@ p {
 
 .text {
     width: 630px;
-    margin: auto;
+    margin: 70px auto ;
 }
 
 .first-sec {
     display: flex;
     margin-top: 40px;
-    margin-left: -32px;
-    gap: 80px;
+    margin-left: -26px;
+    gap: 100px;
 
 }
 
