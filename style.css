@@ -8,8 +8,8 @@
 :root {
     --btn-Cyan: hsl(171, 66%, 44%);
     --btn-Blue: hsl(233, 100%, 69%);
-    --footer-color: hsl(210, 10%, 33%);
-    --text-color: hsl(201, 11%, 66%);
+    --text-color: hsl(210, 10%, 33%);
+    --nav-color: hsl(200, 6%, 81%);
 }
 
 body {
@@ -62,7 +62,7 @@ p {
 
 .text {
     width: 630px;
-    margin: 70px auto ;
+    margin: 50px auto ;
 }
 
 .first-sec {
@@ -84,11 +84,78 @@ p {
     width: 600px;
 }
 
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    gap: 40px;
+}
+
+.box {
+    width: 260px;
+}
+
+.box img {
+    margin: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    padding: 90px;
+}
+
+.logos img {
+    width: 10%;
+}
+
+main footer {
+    margin-bottom: 140px;
+}
+
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(200deg 40.91% 96%);
+}
+
+.logo img {
+    width: 30%;
+}
 
 .links {
-
+    display: flex;
+    gap: 30px;
+    margin: 0 380px 0px 90px;
     
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 22%;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+ }
