@@ -176,12 +176,8 @@ nav {
 
  @media (max-width:970px){
 
-    /* main {
-        display: flex;
-        flex-direction: column;
-    } */
-
     header {
+        padding: 100px 235px;
         
     }
 
