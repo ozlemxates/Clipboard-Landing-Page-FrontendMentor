@@ -52,6 +52,12 @@ header img {
     border-radius: 24px;
     color:#ffff;
     font-weight: 700;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .cyan {
@@ -162,6 +168,7 @@ nav {
 
 .icons img {
     width: 22%;
+    cursor: pointer;
 }
 
 .link a {
